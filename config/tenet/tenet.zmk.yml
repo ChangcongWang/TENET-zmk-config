@@ -1,0 +1,14 @@
+file_format: "1"
+id: tenet
+name: TENET
+type: shield
+url: https://github.com/ChangcongWang/TENET-zmk-config
+
+requires: [pro_micro]
+features:
+  - keys
+  - underglow
+  - studio
+siblings:
+  - tenet_left
+  - tenet_right

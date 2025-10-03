@@ -1,0 +1,13 @@
+# Copyright (c) 2025 WCC
+# SPDX-License-Identifier: MIT
+
+config SHIELD_TENET
+    bool
+
+config SHIELD_TENET_LEFT
+    def_bool $(shields_list_contains,tenet_left)
+    select SHIELD_TENET
+
+config SHIELD_TENET_RIGHT
+    def_bool $(shields_list_contains,tenet_right)
+    select SHIELD_TENET
